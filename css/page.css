@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+    color: gray;
+    padding-top: 5px;
+}
+
+/* 详情消息卡片公用padding */
+.padding {
+    padding: 10px 15px;
+}
+
+/* 最外围容器 */
+#box {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+    padding-bottom: 70px;
+}
+
+/* 设置box容器子标签公用样式 */
+#box>div {
+    border-left: 1px solid rgb(185, 183, 183);
+    border-right: 1px solid rgb(185, 183, 183);
+    background-color: #fff;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+/* 头部搜索框样式 */
+header {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #2C6193;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>input {
+    width: 92%;
+    height: 35px;
+    border-radius: 24px;
+    text-indent: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+header>img {
+    width: 26px;
+    position: absolute;
+    left: 34px;
+}
+
+/* 跳转导航样式 */
+#head-tabbar {
+    padding: 20px 0 5px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#head-tabbar>div {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#head-tabbar div:nth-of-type(1) span {
+    padding-right: 15px;
+}
+
+#head-tabbar img {
+    width: 60px;
+}
+
+/* 详情消息卡片样式 */
+#time {
+    width: 100%;
+}
+
+/* 卡片标题 */
+#time-title {
+    padding: 20px 15px 12px;
+    display: flex;
+    align-items: center;
+}
+
+#time-title>span {
+    font-size: 24px;
+}
+
+#time-title>img {
+    width: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* 标题和内容分隔线 */
+#line {
+    height: 1px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(184, 181, 181);
+}
+
+#card li span:nth-child(1) {
+    display: inline-block;
+    width: 60px;
+}
+
+/* 卡片内容第一个li样式 */
+#card li:nth-child(1) {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+#card li:nth-child(1)>span:nth-child(1) {
+    width: 70px;
+    color: #000;
+}
+
+#card li:nth-child(1)>span:nth-child(2) {
+    color: #3b7bb8;
+}
+
+/* 卡片内容第四个li样式 */
+#card li:nth-child(4) {
+    position: relative;
+}
+
+#card li:nth-child(4)>span:nth-child(3) {
+    position: absolute;
+    right: 0;
+    padding: 3px 15px;
+    background-color: #3b7bb8;
+    border-radius: 2px;
+    color: #fff;
+    bottom: 1px;
+    cursor: pointer;
+}
+
+/* 底部跳转导航栏 */
+footer {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(183, 180, 180)
+}
+
+footer>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+
+footer>div:nth-child(2) span {
+    color: #3b7bb8;
+}
+
+footer img {
+    width: 45px;
+}
+
+footer span {
+    font-size: 12px;
+}
