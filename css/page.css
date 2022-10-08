@@ -168,7 +168,7 @@ footer>div {
     padding: 5px 0;
 }
 
-footer>div:nth-child(2) span {
+footer>div:nth-child(1) span {
     color: #3b7bb8;
 }
 
